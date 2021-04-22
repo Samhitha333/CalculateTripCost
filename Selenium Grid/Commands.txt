@@ -1,0 +1,7 @@
+To start selenium hub -: java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+Grid-Console -: http://localhost:4444/grid/console
+
+To start Selenium node -: java -Dwebdriver.chrome.driver="C:\\Users\\hp\\eclipse-workspace\\Hackathon_Calculate_Trip_Cost\\Hackathon_Calculate_Trip_Cost\\Drivers\\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role webdriver -hub http://192.168.1.100:4444/grid/register/ -port 5556 -browser browserName=chrome
+
+

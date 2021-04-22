@@ -1,0 +1,72 @@
+[RemoteTestNG] detected TestNG version 7.3.0
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 46860
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1618663733.317][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Apr 17, 2021 6:18:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 17, 2021 6:18:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Apr 17, 2021 6:18:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+https://www.tripadvisor.in/Tourism-g294207-Nairobi-Vacations.html
+Destination is: Nairobi
+
+Check-in Date is : Sun-Apr-18-2021 Check-out Date is: Fri-Apr-23-2021
+
+Number of guests to book Holiday Homes is :  4
+
+Hotel Names are:----     
+Elegant Cosy Conquest
+City/River View Retreat in the Heart of Westlands
+The PINE LUSH -3 BDR (ALL ENSUITE) APARTMENT!2 MIN to SARIT CENTRE
+---------------------------------------------------------------------------------------------------------------
+Total charges are:----     
+? 8,540
+? 6,149
+? 12,982
+---------------------------------------------------------------------------------------------------------------
+Charges per night are:----     
+? 42,704 / 5 nights
+? 30,747 / 5 nights
+? 64,911 / 5 nights
+---------------------------------------------------------------------------------------------------------------
+Size is :3
+https://www.tripadvisor.in/VacationRentalReview-g294207-d19072853-Elegant_Cosy_Conquest-Nairobi.html
+https://www.tripadvisor.in/VacationRentalReview-g294207-d15549338-City_River_View_Retreat_in_the_Heart_of_Westlands-Nairobi.html
+https://www.tripadvisor.in/VacationRentalReview-g294207-d16636903-The_PINE_LUSH_3_BDR_ALL_ENSUITE_APARTMENT_2_MIN_to_SARIT_CENTRE-Nairobi.html
+---------------------------------------------------------------------------------------------------------------
+Now switching to Cruise Section
+CruiseLine chosen is: A-ROSA Cruises CruiseShip chosen is: Bella
+
+Passengers: 242   |   Crew: 50
+Launched: 2002   
+
+All languages
+English
+
+
+PASSED: SetUrl
+PASSED: SearchDestination
+PASSED: ClickHolidayHomesButton
+PASSED: SetDate
+PASSED: NoOfGuests
+PASSED: RatingSort
+PASSED: LiftAccess
+PASSED: HotelDetails
+PASSED: GetHotelScreenShots
+PASSED: SetCruises
+PASSED: GetCruiseDetails
+
+===============================================
+    Default test
+    Tests run: 11, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 11, Passes: 11, Failures: 0, Skips: 0
+===============================================
+

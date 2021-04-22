@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default suite]">
+  <test thread-count="5" verbose="0" name="Default test(failed)">
+    <groups>
+      <run>
+        <include name="SuperGroup"/>
+        <include name="SmokeTest"/>
+        <include name="RegressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Hackathon.CalculateTripCost">
+        <methods>
+          <include name="GetHotelScreenShots"/>
+          <include name="SetDate"/>
+          <include name="LiftAccess"/>
+          <include name="SetCruises"/>
+          <include name="NoOfGuests"/>
+          <include name="screenShot"/>
+          <include name="HotelDetails"/>
+          <include name="GetCruiseDetails"/>
+          <include name="RatingSort"/>
+          <include name="CloseBrowser"/>
+          <include name="SearchDestination"/>
+          <include name="ClickHolidayHomesButton"/>
+          <include name="SetDrivers"/>
+        </methods>
+      </class> <!-- Hackathon.CalculateTripCost -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
